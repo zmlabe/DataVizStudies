@@ -17,13 +17,13 @@ import palettable.scientific.diverging as dddd
 import palettable.colorbrewer.diverging as cb
 import pandas as pd
 import wget
+from matplotlib.colors import ListedColormap
 
 ### Set parameters
-typeOfStripes = 'stdev'
+typeOfStripes = 'absMaxMin'
 timeq = 100 # years
 # cmap = cb.RdBu_8_r.mpl_colormap
 cmap = dddd.Vik_20.mpl_colormap
-
 directorydata = '/Users/zlabe/Data/BEST/States/'
 directoryfigure = '/Users/zlabe/Documents/Research/Visualizations/Figures/Stripes/%s/' % typeOfStripes
 states = np.array(['alabama','alaska','arizona','arkansas','california','colorado','connecticut',
@@ -46,7 +46,10 @@ for i in range(states.shape[0]):
     mon[i,:] = monthq[-timeq*12:]
     temp[i,:] = anomq[-timeq*12:]
 tt = np.reshape(temp,(states.shape[0],timeq,12))
-mean = np.nanmean(tt,axis=2)
+
+### Select month or annual average
+# mean = np.nanmean(tt,axis=2)
+mean = tt[:,:,-1] # December
 
 ### Set parameters
 yrmin = int(year.min())
@@ -107,5 +110,5 @@ np.savetxt(directoryfigure + 'States_maxLimit_BEST_%s-%s_%s.txt' % (yrmin,yrmax,
             maxlimit)
 np.savetxt(directoryfigure + 'States_minLimit_BEST_%s-%s_%s.txt' % (yrmin,yrmax,typeOfStripes),
             minlimit)
-np.savetxt(directoryfigure + 'States_AnnualMean_BEST_%s-%s_%s.txt' % (yrmin,yrmax,typeOfStripes),
+np.savetxt(directoryfigure + 'States_DecemberMean_BEST_%s-%s_%s.txt' % (yrmin,yrmax,typeOfStripes),
             mean)

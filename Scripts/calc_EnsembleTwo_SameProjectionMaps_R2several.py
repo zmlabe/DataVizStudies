@@ -34,7 +34,7 @@ sliceshape = 4
 slicenan = 'nan'
 addclimo = True
 takeEnsMean = False
-read_data = False
+read_data = True
 
 ### Read in data
 if read_data == True:
@@ -146,7 +146,7 @@ r5c = np.empty((samples))
 for i in range(samples):
     e1 = int(ens1[i])
     e2 = int(ens2[i])
-    weight = 'yes'
+    weight = 'no'
     r1[i] = UT.calc_spatialCorr(change[e1],change[e2],lat,lon,weight)**2
     r2[i] = UT.calc_spatialCorr(change[e1],change[e2],lat,lon,weight)**2
     r3[i] = UT.calc_spatialCorr(changenh1[e1],changenh1[e2],latp1,lon,weight)**2
@@ -166,8 +166,14 @@ for i in range(samples):
     r5c[i] = UT.calc_spatialCorr(changeggc[e1],changeggc[e2],latg,lon,weight)**2
     
 ### Save files
-np.savetxt(directorydata2 + 'MapSet_1_r2regions.txt',np.c_[r1,r1b,r1c])
-np.savetxt(directorydata2 + 'MapSet_2_r2regions.txt',np.c_[r2,r2b,r2c])
-np.savetxt(directorydata2 + 'MapSet_3_r2regions.txt',np.c_[r3,r3b,r3c])
-np.savetxt(directorydata2 + 'MapSet_4_r2regions.txt',np.c_[r4,r4b,r4c])
-np.savetxt(directorydata2 + 'MapSet_5_r2regions.txt',np.c_[r5,r5b,r5c])
+# np.savetxt(directorydata2 + 'MapSet_1_r2regions_noweight.txt',np.c_[r1,r1b,r1c])
+# np.savetxt(directorydata2 + 'MapSet_2_r2regions_noweight.txt',np.c_[r2,r2b,r2c])
+# np.savetxt(directorydata2 + 'MapSet_3_r2regions_noweight.txt',np.c_[r3,r3b,r3c])
+# np.savetxt(directorydata2 + 'MapSet_4_r2regions_noweight.txt',np.c_[r4,r4b,r4c])
+# np.savetxt(directorydata2 + 'MapSet_5_r2regions_noweight.txt',np.c_[r5,r5b,r5c])
+np.savetxt(directorydata2 + 'MapSet_1_r2regions_noweight.txt',r1)
+np.savetxt(directorydata2 + 'MapSet_2_r2regions_noweight.txt',r2)
+np.savetxt(directorydata2 + 'MapSet_3_r2regions_noweight.txt',r3)
+np.savetxt(directorydata2 + 'MapSet_4_r2regions_noweight.txt',r4)
+np.savetxt(directorydata2 + 'MapSet_5_r2regions_noweight.txt',r5)
+
