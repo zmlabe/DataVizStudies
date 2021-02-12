@@ -18,12 +18,14 @@ import palettable.colorbrewer.diverging as cb
 import pandas as pd
 import wget
 from matplotlib.colors import ListedColormap
+import nclcmaps as ncm
 
 ### Set parameters
-typeOfStripes = 'absMaxMin'
+typeOfStripes = 'stdev'
 timeq = 100 # years
 # cmap = cb.RdBu_8_r.mpl_colormap
-cmap = dddd.Vik_20.mpl_colormap
+# cmap = dddd.Vik_20.mpl_colormap
+cmap = ncm.cmap('NCV_blu_red')  
 directorydata = '/Users/zlabe/Data/BEST/States/'
 directoryfigure = '/Users/zlabe/Documents/Research/Visualizations/Figures/Stripes/%s/' % typeOfStripes
 states = np.array(['alabama','alaska','arizona','arkansas','california','colorado','connecticut',
