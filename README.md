@@ -17,6 +17,6 @@ Zachary Labe - [Research Website](https://sites.uci.edu/zlabe/) - [@ZLabe](https
     + Kay, J. E and Coauthors, 2015: The Community Earth System Model (CESM) large ensemble project: A community resource for studying climate change in the presence of internal climate variability. Bull. Amer. Meteor. Soc., 96, 1333–1349, doi:10.1175/BAMS-D-13-00255.1, [[Publication]](http://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00255.1)
 
 ## Publications
-
++ **[1]** Witt, J.K., D.A. Szafir, **Z.M. Labe**, and E.A. Barnes (2022). Perceiving Internal Climate Variability: Signaling Change through Animation Decreases Performance. (*submitted*)
 
 ## Conferences
