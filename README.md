@@ -17,6 +17,9 @@ Zachary Labe - [Research Website](https://sites.uci.edu/zlabe/) - [@ZLabe](https
     + Kay, J. E and Coauthors, 2015: The Community Earth System Model (CESM) large ensemble project: A community resource for studying climate change in the presence of internal climate variability. Bull. Amer. Meteor. Soc., 96, 1333–1349, doi:10.1175/BAMS-D-13-00255.1, [[Publication]](http://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00255.1)
 
 ## Publications
-+ **[1]** Witt, J.K., D.A. Szafir, **Z.M. Labe**, and E.A. Barnes (2022). Perceiving Internal Climate Variability: Signaling Change through Animation Decreases Performance. (*submitted*)
+**[1]** Witt, J.K., **Z.M. Labe**, and B.A. Clegg (2022). Comparisons of perceptions of risk for visualizations using animated risk trajectories versus cones of uncertainty. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting*, DOI:10.1177/1071181322661308 [[HTML]](https://doi.org/10.1177/1071181322661308)[[SUMMARY]](https://sustainability.colostate.edu/people/witt-jessica/)[[BibTeX]](https://zacklabe.files.wordpress.com/2022/10/wittlabeclegg_hurricanecou_hfes2022_bibtex.pdf)
 
 ## Conferences
+**[2]** Witt, J.K., **Z.M. Labe**, and B. Clegg. Comparisons of Perceptions of Risk for Visualizations Using Animated Risk Trajectories Versus Cones of Uncertainty, Human Factors and Ergonomics Society (HFES) 66th International Annual Meeting, Atlanta, GA (Oct 2022). [[ABSTRACT]](https://hfesam2022.conference-program.com/presentation/?id=LECT451&sess=sess181)
+
+**[1]** Witt, J.K., **Z.M. Labe**, B. Clegg, and A. Warden. An alternative to the “Cone of Uncertainty” that is flexible, intuitive, and desirable for communicating hurricane forecasts, 17th Symposium on Societal Applications: Policy, Research and Practice, Virtual Attendance (Jan 2022). [[ABSTRACT]](https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/395666)
