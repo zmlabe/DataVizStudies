@@ -17,6 +17,8 @@ Zachary Labe - [Research Website](https://sites.uci.edu/zlabe/) - [@ZLabe](https
     + Kay, J. E and Coauthors, 2015: The Community Earth System Model (CESM) large ensemble project: A community resource for studying climate change in the presence of internal climate variability. Bull. Amer. Meteor. Soc., 96, 1333–1349, doi:10.1175/BAMS-D-13-00255.1, [[Publication]](http://journals.ametsoc.org/doi/full/10.1175/BAMS-D-13-00255.1)
 
 ## Publications
+**[2]** Witt, J.K., **Z.M. Labe**, A.C. Warden, and B.A. Clegg (2023). Visualizing Uncertainty in Hurricane Forecasts with Animated Risk Trajectories. *Weather, Climate, and Society*, DOI:10.1177/1071181322661308 [[HTML]](https://doi.org/10.1175/WCAS-D-21-0173.1)[[SUMMARY]](https://sustainability.colostate.edu/people/witt-jessica/)[[BibTeX]](https://zacklabe.files.wordpress.com/2023/04/wittlabewardenclegg_arts_wcas_eor_bibtex.pdf)
+
 **[1]** Witt, J.K., **Z.M. Labe**, and B.A. Clegg (2022). Comparisons of perceptions of risk for visualizations using animated risk trajectories versus cones of uncertainty. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting*, DOI:10.1177/1071181322661308 [[HTML]](https://doi.org/10.1177/1071181322661308)[[SUMMARY]](https://sustainability.colostate.edu/people/witt-jessica/)[[BibTeX]](https://zacklabe.files.wordpress.com/2022/10/wittlabeclegg_hurricanecou_hfes2022_bibtex.pdf)
 
 ## Conferences
